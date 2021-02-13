@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakky GADGETS</title>
+
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  
+  <!-- font-awesome icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
+</head>
+  <div class="background">
+    <div class="login-box">
+      <h5>ZAKKY GADGETS</h5>
+      <h1>Login</h1>
+      <div class="textbox">
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <input   class="input" [(ngModel)] = "user_Email" type="text" placeholder="Username" name="" value="">
+      </div>
+
+      <div class="textbox input-2">
+          <i class="fa fa-lock" aria-hidden="true"></i>
+          <input class="input" [(ngModel)] = "user_Password" type="password" placeholder="Password" name="" value="">
+      </div>
+
+      <input type="button" (click)="getUsers()" class="btn" name="" value="Sign in">
+      <div class="marquee">
+        <marquee style="direction:left">Kindly Use the Login details provided to Login</marquee>
+      </div>
+    </div>
+
+    <ngx-spinner bdColor="rgba(51, 51, 51, 0.8)" size="default" type="ball-spin-clockwise">  
+      <p style="color: white">Loading... </p>  
+    </ngx-spinner> 
+  </div>
+  <!-- bootstrap script-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+</html>

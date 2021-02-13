@@ -1,0 +1,105 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+section{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+    background-color:#000
+    
+    
+}
+
+.background{
+    background: url("/assets/background-2.jpg");
+    opacity:20px;
+    height: 820px;
+    width:auto;
+    background-size:100%;  
+    background-size:cover;   
+}
+
+
+.login-box{
+    width:280px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    
+}
+
+.login-box h5{
+    font-size:35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login-box h1{
+    float:left;
+    width:40%;
+    font-size:40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px ;
+    padding: 13px 0;
+}
+
+.textbox{
+    width:100%;
+    overflow: hidden;
+    font-size:20px;
+    padding:8px 0px;
+    border-bottom:3px solid #4caf50;
+
+}
+
+.input{
+    padding-left:15px;
+}
+
+.textbox i{
+    width:26px;
+    float:left;
+    text-align:center;
+    color:white
+}
+
+.textbox input{
+    border:none;
+    outline:none;
+    background: none;
+    color:white;
+    font-size:18px;
+    width:90%;
+    float: left;
+    /* padding-bottom: 20px;  */
+
+}
+.input-2{
+    margin-top: 25px;;
+}
+
+.btn{
+    width: 100%;
+    background:none;
+    border: 5px solid #4caf50;
+    color:white;
+    padding:5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin:12px 0px;
+
+}
+
+.btn:hover{
+    background:#4caf50;
+    color:white;
+    font-weight:bold;
+}
+
+marquee{
+    color:#fff;
+}
+
+.marquee{
+    width:100%
+}
